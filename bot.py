@@ -18,6 +18,7 @@ bot = Client(
     "VideoPlayer",
     Config.API_ID,
     Config.API_HASH,
+    bot_token=Config.BOT_TOKEN
     plugins=dict(root="plugins")
 )
 class Bot(Client):
